@@ -4,9 +4,9 @@
   "description": "Evaluates dynamic inline styles",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rimraf dist/ && babel src/ --out-dir dist/",
+    "build": "babel src/ --out-dir dist/",
     "clean": "rimraf dist/",
-    "prepublish": "npm run build"
+    "prepublish": "npm run clean && npm run build"
   },
   "repository": {
     "type": "git",

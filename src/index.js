@@ -1,7 +1,6 @@
 import _ from 'lodash';
 
 function evaluateProp(prop, data) {
-  console.log(prop);
   return _.isFunction(prop) ? prop(data) : prop;
 }
 
