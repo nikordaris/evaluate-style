@@ -18,8 +18,7 @@
     "style",
     "css",
     "dynamic",
-    "evaluate",
-    "function"
+    "evaluate"
   ],
   "author": "Nick Harris <nharris85@gmail.com>",
   "license": "MIT",
