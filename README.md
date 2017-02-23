@@ -15,7 +15,7 @@ Evaluates dynamic inline styles by passing data arguments to all defined functio
 ## Installation
 
 ```bash
-npm install acl-arangodb
+npm install evaluate-style
 ```
 
 ## Usage
